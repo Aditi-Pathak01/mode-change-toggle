@@ -1,0 +1,28 @@
+button {
+  border:none;
+  outline: none;
+  height: 40px;
+  width: 50px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  overflow: hidden;
+}
+button img {
+  width: 100%;
+  object-fit: contain;
+}
+:root{
+ --primary-color : green;
+ --secondary-color : red;
+}
+.dark-theme {
+  --primary-color : magenta;
+  --secondary-color : blue;
+   background-color: black; 
+}
+h1 {
+  color: var(--primary-color);
+}
+h2 {
+  color: var(--secondary-color);
+}
